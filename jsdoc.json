@@ -32,14 +32,17 @@
           "examples": []
         },
         {
-          "name": "get",
+          "name": "gain",
           "access": "",
           "virtual": false,
           "description": "Get an entity cache",
           "parameters": [
             {
               "name": "id",
-              "type": "ClayId",
+              "type": [
+                "ClayId",
+                "ClayEntity"
+              ],
               "description": "",
               "default": "",
               "optional": "",
