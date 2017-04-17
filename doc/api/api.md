@@ -7,7 +7,7 @@ Cache handler for clay-resources
 + [`ClayResourceCache`](#clay-resource-cache-class) Class
   + [new ClayResourceCache()](#clay-resource-cache-class-clay-resource-cache-constructor)
   + [cache.store(entity)](#clay-resource-cache-class-clay-resource-cache-store)
-  + [cache.get(id)](#clay-resource-cache-class-clay-resource-cache-get)
+  + [cache.gain(id)](#clay-resource-cache-class-clay-resource-cache-gain)
   + [cache.remove(id)](#clay-resource-cache-class-clay-resource-cache-remove)
   + [cache.clear()](#clay-resource-cache-class-clay-resource-cache-clear)
   + [cache.invalidate()](#clay-resource-cache-class-clay-resource-cache-invalidate)
@@ -54,15 +54,15 @@ Store an entity cache
 | entity | ClayEntity | Entity to save |
 
 
-<a class='md-heading-link' name="clay-resource-cache-class-clay-resource-cache-get" ></a>
+<a class='md-heading-link' name="clay-resource-cache-class-clay-resource-cache-gain" ></a>
 
-### cache.get(id) -> `ClayEntity`
+### cache.gain(id) -> `ClayEntity`
 
 Get an entity cache
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| id | ClayId |  |
+| id | ClayId,ClayEntity |  |
 
 
 <a class='md-heading-link' name="clay-resource-cache-class-clay-resource-cache-remove" ></a>
