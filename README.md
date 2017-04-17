@@ -105,7 +105,7 @@ const clayEntity = require('clay-entity')
 API Guide
 -----
 
-+ [clay-resource-cache@1.0.1](./doc/api/api.md)
++ [clay-resource-cache@1.0.2](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#clay-resource-cache-function-create)
   + [ClayResourceCache](./doc/api/api.md#clay-resource-cache-class)
 
