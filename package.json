@@ -1,0 +1,51 @@
+{
+  "name": "clay-resource-cache",
+  "version": "1.0.0",
+  "description": "Cache handler for clay-resources",
+  "main": "lib",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js && node ./ci/shim.js && node ./ci/doc.js"
+  },
+  "repository": "realglobe-Inc/clay-resource-cache",
+  "keywords": [
+    "ClayDB"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinish@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/clay-resource-cache/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/clay-resource-cache#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "ababel": "^2.0.1",
+    "ababel-es2015": "^2.0.1",
+    "amocha": "^2.0.0",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.1.0",
+    "clay-entity": "^2.0.1",
+    "clay-id": "^3.0.1",
+    "clay-resource": "^3.0.4",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0",
+    "request": "^2.81.0",
+    "sg-templates": "^1.4.4",
+    "stringcase": "^3.2.1",
+    "sugos-travis": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}

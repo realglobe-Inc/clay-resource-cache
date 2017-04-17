@@ -1,0 +1,17 @@
+'use strict'
+
+const { Templates } = require('sg-templates')
+
+module.exports = {
+  force: true,
+  mode: '444',
+  tmpl: Templates.moduleApi,
+  data: {
+    pkg: require('../../package.json'),
+    signature: require('../../misc/signature')
+  }
+}
+
+if (!module.parent) {
+  require('coz').render(__filename)
+}

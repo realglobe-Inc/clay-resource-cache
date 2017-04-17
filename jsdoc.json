@@ -1,0 +1,123 @@
+{
+  "classes": [
+    {
+      "name": "ClayResourceCache",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "ClayResourceCache",
+        "description": "Cache for resource",
+        "parameters": [],
+        "examples": []
+      },
+      "functions": [
+        {
+          "name": "store",
+          "access": "",
+          "virtual": false,
+          "description": "Store an entity cache",
+          "parameters": [
+            {
+              "name": "entity",
+              "type": "ClayEntity",
+              "description": "Entity to save",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": []
+        },
+        {
+          "name": "get",
+          "access": "",
+          "virtual": false,
+          "description": "Get an entity cache",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "ClayId",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": [],
+          "returns": {
+            "type": "ClayEntity",
+            "description": ""
+          }
+        },
+        {
+          "name": "remove",
+          "access": "",
+          "virtual": false,
+          "description": "Remove cache",
+          "parameters": [
+            {
+              "name": "id",
+              "type": "ClayId",
+              "description": "",
+              "default": "",
+              "optional": "",
+              "nullable": ""
+            }
+          ],
+          "examples": []
+        },
+        {
+          "name": "clear",
+          "access": "",
+          "virtual": false,
+          "description": "Clear all caches",
+          "parameters": [],
+          "examples": []
+        },
+        {
+          "name": "invalidate",
+          "access": "",
+          "virtual": false,
+          "description": "Invalidate caches",
+          "parameters": [],
+          "examples": []
+        }
+      ],
+      "properties": [
+        {
+          "name": "size",
+          "access": "",
+          "virtual": false,
+          "description": "Cache length",
+          "type": ""
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a ClayResourceCache instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "ClayResourceCache",
+        "description": ""
+      }
+    }
+  ]
+}
