@@ -33,7 +33,7 @@ describe('clay-resource-cache', function () {
     cache.store(entity01)
     cache.store(entity02)
     equal(cache.size, 2)
-    cache.get(entity01.id)
+    cache.gain(entity01.id)
     cache.remove(entity01)
     equal(cache.size, 1)
     cache.remove(entity02.id)
