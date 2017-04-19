@@ -36,7 +36,7 @@
     "ape-updating": "^4.1.0",
     "clay-entity": "^2.0.1",
     "clay-id": "^3.0.1",
-    "clay-resource": "^3.0.4",
+    "clay-resource": "^3.0.6",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
     "request": "^2.81.0",
