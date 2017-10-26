@@ -7,20 +7,20 @@
 const ClayResourceCache = require('../lib/clay_resource_cache.js')
 const {ok, equal} = require('assert')
 const clayEntity = require('clay-entity')
-const co = require('co')
+
 
 describe('clay-resource-cache', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Clay resource cache', () => co(function * () {
+  it('Clay resource cache', async () => {
     const cache = new ClayResourceCache({
       max: 10
     })
@@ -41,7 +41,7 @@ describe('clay-resource-cache', function () {
     for (let i = 0; i < 15; i++) {
       cache.store(clayEntity({}))
     }
-  }))
+  })
 })
 
 /* global describe, before, after, it */
