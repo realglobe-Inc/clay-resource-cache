@@ -1,4 +1,4 @@
-# clay-resource-cache@1.0.3
+# clay-resource-cache@1.0.4
 
 Cache handler for clay-resources
 

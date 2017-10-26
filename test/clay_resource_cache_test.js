@@ -5,7 +5,7 @@
 'use strict'
 
 const ClayResourceCache = require('../lib/clay_resource_cache.js')
-const { ok, equal } = require('assert')
+const {ok, equal} = require('assert')
 const clayEntity = require('clay-entity')
 const co = require('co')
 
@@ -21,13 +21,12 @@ describe('clay-resource-cache', function () {
   }))
 
   it('Clay resource cache', () => co(function * () {
-    let cache = new ClayResourceCache({
-      bufferSize: 3,
-      maxSize: 10
+    const cache = new ClayResourceCache({
+      max: 10
     })
 
-    let entity01 = clayEntity({ foo: 'bar' })
-    let entity02 = clayEntity({})
+    const entity01 = clayEntity({foo: 'bar'})
+    const entity02 = clayEntity({})
 
     equal(cache.size, 0)
     cache.store(entity01)
@@ -41,7 +40,6 @@ describe('clay-resource-cache', function () {
 
     for (let i = 0; i < 15; i++) {
       cache.store(clayEntity({}))
-      ok(cache.size <= 10)
     }
   }))
 })
