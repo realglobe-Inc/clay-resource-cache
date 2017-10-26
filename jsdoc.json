@@ -79,14 +79,6 @@
           "description": "Clear all caches",
           "parameters": [],
           "examples": []
-        },
-        {
-          "name": "invalidate",
-          "access": "",
-          "virtual": false,
-          "description": "Invalidate caches",
-          "parameters": [],
-          "examples": []
         }
       ],
       "properties": [

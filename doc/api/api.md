@@ -1,4 +1,4 @@
-# clay-resource-cache@1.0.4
+# clay-resource-cache@2.0.0
 
 Cache handler for clay-resources
 
@@ -10,7 +10,6 @@ Cache handler for clay-resources
   + [cache.gain(id)](#clay-resource-cache-class-clay-resource-cache-gain)
   + [cache.remove(id)](#clay-resource-cache-class-clay-resource-cache-remove)
   + [cache.clear()](#clay-resource-cache-class-clay-resource-cache-clear)
-  + [cache.invalidate()](#clay-resource-cache-class-clay-resource-cache-invalidate)
 
 ## Functions
 
@@ -81,12 +80,6 @@ Remove cache
 ### cache.clear()
 
 Clear all caches
-
-<a class='md-heading-link' name="clay-resource-cache-class-clay-resource-cache-invalidate" ></a>
-
-### cache.invalidate()
-
-Invalidate caches
 
 
 

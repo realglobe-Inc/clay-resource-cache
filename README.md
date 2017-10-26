@@ -78,18 +78,18 @@ const clayResourceCache = require('clay-resource-cache')
 const clayEntity = require('clay-entity')
 
 {
-  let cache = clayResourceCache({
+  const cache = clayResourceCache({
     max: 1000,
     maxAge: 1000 * 60 * 60
   })
 
-  let entity01 = clayEntity({
+  const entity01 = clayEntity({
     name: 'The entity 01'
   })
 
   cache.store(entity01)
 
-  let cached = cache.get(entity01.id)
+  const cached = cache.get(entity01.id)
   console.log(cached) // Get cached entity
 }
 
@@ -105,7 +105,7 @@ const clayEntity = require('clay-entity')
 API Guide
 -----
 
-+ [clay-resource-cache@1.0.4](./doc/api/api.md)
++ [clay-resource-cache@2.0.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#clay-resource-cache-function-create)
   + [ClayResourceCache](./doc/api/api.md#clay-resource-cache-class)
 
