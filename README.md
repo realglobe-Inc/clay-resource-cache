@@ -100,12 +100,12 @@ const clayEntity = require('clay-entity')
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" Start -->
 
-<a name="section-doc-guides-10-a-p-i-guide-md"></a>
+<a name="section-doc-guides-10-api-guide-md"></a>
 
 API Guide
 -----
 
-+ [clay-resource-cache@2.0.1](./doc/api/api.md)
++ [clay-resource-cache@2.0.2](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#clay-resource-cache-function-create)
   + [ClayResourceCache](./doc/api/api.md#clay-resource-cache-class)
 

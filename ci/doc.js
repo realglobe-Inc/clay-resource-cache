@@ -19,7 +19,7 @@ apeTasking.runTasks('build', [
     let src = 'lib/*.js'
     let dest = 'jsdoc.json'
     let data = execSync(`
-    jsdoc ${src} -t templates/haruki -d console -q format=JSON
+    npx jsdoc ${src} -t templates/haruki -d console -q format=JSON
 `)
     data = JSON.stringify(JSON.parse(data), null, 2)
     let result = await writeout(dest, data, {
